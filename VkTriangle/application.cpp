@@ -1,5 +1,5 @@
-#include "application.h"
 #include <iostream>
+#include "application.h"
 
 Application::Application() {
 	std::cout << "Create Vulkan Object\n";
@@ -7,7 +7,7 @@ Application::Application() {
 }
 
 void Application::initVulkan() {
-
+	createInstance();
 }
 
 
